@@ -1,0 +1,28 @@
+.load-more {
+  display: flex;
+  margin: 0px auto 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  // font-weight: bold;
+  font-size: large;
+  color: #fff;
+  background-color: #1936bb;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #3e8e41;
+  }
+
+  &:active {
+    background-color: #3e8e69;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
+
+.is-hidden {
+  display: none;
+}
